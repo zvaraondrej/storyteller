@@ -11,10 +11,14 @@
 		<link rel="stylesheet" href="bower_components/font-awesome-bower/css/font-awesome.css" />
 		<link rel="stylesheet" href="bower_components/leaflet-dist/leaflet.css" />
 		<!-- endbower -->
+		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 
-	<body onload="init();">
-		
+	<body>
+		<div id="map"></div>
+		<div id="pan">
+			<a href="#">pan</a>
+		</div>
 	</body>
 
   <!-- bower:js -->
@@ -22,5 +26,14 @@
   <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <script src="bower_components/leaflet-dist/leaflet.js"></script>
   <!-- endbower -->
+  <script src="js/AppController.js"></script>
+  <script src="js/teller.js"></script>
+  <script src="js/main.js"></script>
   
+  <script type="text/javascript">
+		$(document).ready(function(){
+			go();
+		});
+	</script>
+
 </html>
