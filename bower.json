@@ -1,0 +1,20 @@
+{
+  "name": "storyteller",
+  "version": "0.0.0",
+  "authors": [
+    "zvaraondrej <zvara.ondrej@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "font-awesome-bower": "~4.0.3",
+    "leaflet-dist": "~0.7.2"
+  }
+}
