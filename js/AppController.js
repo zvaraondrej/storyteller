@@ -48,4 +48,6 @@ var AppController = (function(){
 		init: init,
 		getMap: getMap
 	};
+
+	//test comment
 })();
